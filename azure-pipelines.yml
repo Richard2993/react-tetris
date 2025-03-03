@@ -6,7 +6,8 @@
 trigger:
 - master
 
-pool: 'RICHARD-PC'
+pool: 
+  vmImage: 'RICHARD-PC'
 
 steps:
 - task: NodeTool@0
